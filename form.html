@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ddcece;
+      margin: 40px;
+    }
+    form {
+      background: #897c7c;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    button {
+      background-color: #28a2cb;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+        color: #b6a3a3;
+    }
+
+  </style>
+</head>
+<body>
+
+  <form>
+    <h2 style="color: black;">Deez Banks Registration Form</h2>
+
+    <!-- Basic Information -->
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="e.g. +1 555 123 4567">
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="3" placeholder="Enter your full address"></textarea>
+
+    <!-- Account Type -->
+    <label for="account-type">Type of Account:</label>
+    <select id="account-type" name="account-type">
+      <option value="">-- Select Account Type --</option>
+      <option value="savings">Savings Account</option>
+      <option value="checking">Checking Account</option>
+      <option value="business">Business Account</option>
+      <option value="student">Student Account</option>
+    </select>
+
+    <!-- Card Type -->
+    <label for="card-type">Preferred Card:</label>
+    <select id="card-type" name="card-type">
+      <option value="">-- Select Card Type --</option>
+      <option value="debit">Debit Card</option>
+      <option value="credit">Credit Card</option>
+      <option value="prepaid">Prepaid Card</option>
+    </select>
+
+
+    <h5> By clicking Submit, you agree to Deez Banks' terms and conditions.</h5>
+
+    <button type="submit">Submit Registration</button>
+
+    <h6 style="text-align: center;">Already have an account? <a href="">Sign In</a></h6>
+
+  </form>
+
+      <footer>
+        <h6 style="text-align: center;">Deez Nuts Limited 2025. Contact us at <a href="">nutsonyourmoney@gmail.com</a><br> All rights Reserved.</h6>
+    </footer>
+
+</body>
+</html>
